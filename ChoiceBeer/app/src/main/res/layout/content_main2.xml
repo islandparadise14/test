@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main2Activity"
+    tools:showIn="@layout/activity_main2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="라거가 좋나요? 에일이 좋나요?"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/lager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="라거" />
+
+        <Button
+            android:id="@+id/ale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="에일" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
